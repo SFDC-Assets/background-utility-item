@@ -1,0 +1,4 @@
+<aura:component controller="BehindTheScenesApexController" implements="lightning:backgroundUtilityItem,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <aura:handler event="lightning:tabCreated" action="{!c.onTabCreated}" />
+    <lightning:workspaceAPI aura:id="workspace" />
+</aura:component>
